@@ -2,7 +2,7 @@ import React from "react";
 import { NavbarTopMenu } from "../components/structure/navbar-top-menu/NavbarTopMenu";
 import { Navbar } from "../components/structure/navbar/navbar/Navbar";
 import { Slider } from "../home/slider/Slider";
-import { Sidebar } from "../sidebar/Sidebar";
+// import { Sidebar } from "../sidebar/Sidebar";
 
 export const DashboardRoutes = () => {
   return (
@@ -10,7 +10,7 @@ export const DashboardRoutes = () => {
       <Navbar />
       <NavbarTopMenu />
       <Slider />
-      <Sidebar />
+      {/* <Sidebar /> */}
     </>
   );
 };
