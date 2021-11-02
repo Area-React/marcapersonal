@@ -2,84 +2,53 @@ body {
   overflow-x: hidden !important;
 }
 
-.menutop {
-  background-color: #740029;
-  float: right;
-  width: 100%;
-  list-style: none;
-  position: relative;
-  font-family: "Bebas Neue";
-  font-size: 40px;
+@font-face {
+  font-family: "Proxima Nova Reg";
+  src: url("../../../fonts/ProximaNova/Proxima\ Nova\ Reg.otf");
 }
 
-.menutop .menu-con {
-  float: right;
+.menutop {
+  background-color: rgb(24, 50, 70);
   display: flex;
-  margin: 0;
+  height: auto;
+  width: 100%;
   padding: 0;
 }
-.botmenu .menu-conbot {
-  float: right;
-  margin: 0;
-  padding: 0;
+
+.menu-con {
+  height: auto;
+  min-width: 100px;
+  padding: 10px;
+  width: 50%;
 }
 
 .menu-con a {
-  padding: 5px 50px;
-  display: block;
   color: #fffdfd;
+  font-family: "Proxima Nova Reg";
+  font-size: 15px;
+  padding: 5px 50px;
   text-decoration: none;
-  font-size: 25px;
-}
-
-.menu-conbot a {
-  padding: 10px 100px;
-  display: block;
-  color: black;
-  text-decoration: none;
-}
-
-.menutop li .sub-menu {
-  background-color: #ffffff;
-  padding: 5px 0;
-  position: absolute;
-  left: 0;
-  top: 35px;
-  display: none;
-  width: 100%;
-}
-
-.menutop li:hover .sub-menu {
-  display: block;
-}
-.menutop li .sub-menu a {
-  display: inline;
-}
-.menutop li .sub-menu a:hover {
-  text-decoration: underline;
-}
-
-.menu-com a {
-  float: right;
-  margin: 0;
-  padding: 0;
-  padding: 10px 100px;
-  display: block;
-  color: #000000;
-  margin-left: 20px;
 }
 
 @media only screen and (max-width: 900px) {
-  .menu-center {
-    padding: 0px 50px;
+  .menutop {
+    display: block;
+    height: 40vh;
   }
 
   .menu-con {
-    text-align: center;
+    background-color: rgb(24, 50, 70);
+    height: auto;
+    min-width: 100px;
+    padding: 30px;
+    width: 82%;
   }
 
-  .menutop .menu-con {
-    float: inherit;
-    display: grid;
+  .menu-con a {
+    color: #fffdfd;
+    font-family: "Proxima Nova Reg";
+    font-size: 18px;
+    padding: 5px 13px;
+    text-decoration: none;
   }
 }
