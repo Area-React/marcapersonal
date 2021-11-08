@@ -16,9 +16,6 @@ export const NavbarTopMenu = () => {
             <div className="menu-con">
               <a href="/noticias">CONTÁCTAME</a>
             </div>
-            <div className="menu-con">
-              <a href="/mapa">MAPA</a>
-            </div>
           </div>
         </center>
       </div>

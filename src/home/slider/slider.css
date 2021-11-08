@@ -1,12 +1,10 @@
-.header {
-  margin-top: 20px;
-}
-
-.headerImg {
-  width: 100%;
-  height: 750px;
-  object-fit: cover;
+.slider-test {
+  margin: auto;
 }
 
 @media only screen and (max-width: 900px) {
+  .slider-test {
+    margin: auto;
+    width: 100%;
+  }
 }
