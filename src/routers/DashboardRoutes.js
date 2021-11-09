@@ -1,16 +1,16 @@
 import React from "react";
+import { Cards } from "../components/home/cardnews/Cards";
+import { Titulo } from "../components/home/titulo/Titulo";
 import { NavbarTopMenu } from "../components/structure/navbar-top-menu/NavbarTopMenu";
-import { Navbar } from "../components/structure/navbar/navbar/Navbar";
 import { Slider } from "../home/slider/Slider";
-// import { Sidebar } from "../sidebar/Sidebar";
 
 export const DashboardRoutes = () => {
   return (
     <>
-      <Navbar />
       <NavbarTopMenu />
       <Slider />
-      {/* <Sidebar /> */}
+      <Titulo/>
+      <Cards/>
     </>
   );
 };

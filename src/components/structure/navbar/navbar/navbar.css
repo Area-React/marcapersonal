@@ -3,60 +3,8 @@
   src: url("../../../../fonts/ProximaNova/Proxima\ Nova\ Reg.otf");
 }
 
-.contenedor {
-  background-color: rgb(108, 141, 167);
-  height: 7em;
-}
-
-.imagePer {
-  height: auto;
-  min-width: 100px;
-  padding: 12px 20px;
-  width: 30%;
-}
-
-.image-per {
-  float: left;
-  padding: 0px 50px;
-  width: 15%;
-}
-
-/*Botón*/
-.buttonPer {
-  height: auto;
-  min-width: 100px;
-  padding: 20px 80px;
-}
-
-.buttonhref {
-  background-color: Transparent;
-  background-repeat: no-repeat;
-  border: none;
-  color: aliceblue;
-  cursor: pointer;
-  float: right;
-  font-family: "Proxima Nova Reg";
-  font-size: 18px;
-  overflow: hidden;
-}
 
 /*Responsive*/
 @media only screen and (max-width: 900px) {
-  .contenedor {
-    background-color: rgb(108, 141, 167);
-    height: 40vh;
-  }
 
-  .image-per {
-    float: left;
-    padding: 0px 110px;
-    width: 80%;
-  }
-
-  .buttonhref {
-    font-family: "Proxima Nova Reg";
-    font-size: 18px;
-    padding: 70px 25px;
-    text-align: center;
-  }
 }

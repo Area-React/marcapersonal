@@ -1,5 +1,10 @@
 .slider-test {
   margin: auto;
+  top: 0;
+}
+
+.card-body{
+  font-family: "Proxima Nova Reg";
 }
 
 @media only screen and (max-width: 900px) {

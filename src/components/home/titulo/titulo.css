@@ -1,0 +1,15 @@
+.titulo-news {
+  font-family: "Proxima Nova Reg";
+  padding: 40px;
+}
+
+.linea {
+  color: blue;
+}
+
+@media only screen and (max-width: 900px) {
+  .titulo-news {
+    font-family: "Proxima Nova Reg";
+    padding: 20px;
+  }
+}
