@@ -4,9 +4,9 @@ import "./slider.css";
 
 // Images
 const rockyWaterfall =
-  "https://www.avianca.com/content/dam/avianca_new/destinos/mex/mx_mex_08_2880_1620.jpg";
+  "https://www.avianca.com/content/dam/avianca_new/destinos/gru/br_gru_ciudad_2880_1620_03.jpg";
 const palauPacificOcean =
-  "https://la.network/wp-content/uploads/2021/07/Emprendimientos-en-Bogota%CC%81.jpg";
+  "https://elcomercio.pe/resizer/jcQO5krGpZVeSvpDyaaQuoaWemU=/980x0/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/PTMT5I4PXFES5FEPDNOHYBEB6I.jpg";
 const queposCostaRica =
   "https://www.avianca.com/content/dam/avianca_new/destinos/jfk/us_jfk_ciudad_2880_1620_01.jpg";
 const mountainView =
@@ -38,7 +38,7 @@ export const Slider = () => {
         }}
       >
         <Slide
-          navDescription="Ciudad de México"
+          navDescription="São Paulo"
           background={{
             backgroundColor: "#2D7791",
             backgroundImage: rockyWaterfall,
@@ -46,7 +46,7 @@ export const Slider = () => {
         />
 
         <Slide
-          navDescription="Bogotá"
+          navDescription="Cancún"
           background={{
             backgroundColor: "#8A8A8A",
             backgroundImage: palauPacificOcean,
