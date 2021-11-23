@@ -1,4 +1,4 @@
-body {
+ body {
   overflow-x: hidden !important;
 }
 
@@ -8,14 +8,23 @@ body {
 }
 
 .menutop {
-  align-items: center;
+  align-items: center; 
   background-color: rgb(24, 50, 70);
   height: 100%;
   justify-content: space-between;
   width: 100%;
 }
 
-.search-bar {
+.menu {
+  font-family: "Proxima Nova Reg";
+  font-size: 16px;
+  margin: 15px;
+  opacity: 0.9;
+  position: relative;
+  text-decoration: none;
+}
+
+/*.search-bar {
   margin: auto;
   padding: 1.5em;
   justify-content: center;
@@ -50,7 +59,7 @@ body {
   opacity: 0.9;
   position: relative;
   text-decoration: none;
-}
+} */
 
 /* .search-bar input,
 .search-btn {
@@ -73,7 +82,7 @@ body {
   display: none;
 } */
 
-@media only screen and (max-width: 900px) {
+/* @media only screen and (max-width: 900px) {
   .menutop {
     align-items: center;
     background-color: rgb(24, 50, 70);
@@ -84,7 +93,7 @@ body {
   }
 
   .menutop > .nav-logo {
-    /* margin: 80px; */
+    margin: 80px;
     height: 40vh;
     padding: 0px 95px;
   }
@@ -109,4 +118,4 @@ body {
     justify-content: center;
     width: 50px;
   }
-}
+} */
