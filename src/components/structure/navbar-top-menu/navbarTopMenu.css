@@ -1,4 +1,4 @@
- body {
+body {
   overflow-x: hidden !important;
 }
 
@@ -8,7 +8,7 @@
 }
 
 .menutop {
-  align-items: center; 
+  align-items: center;
   background-color: rgb(24, 50, 70);
   height: 100%;
   justify-content: space-between;
@@ -24,98 +24,24 @@
   text-decoration: none;
 }
 
-/*.search-bar {
-  margin: auto;
-  padding: 1.5em;
-  justify-content: center;
-  max-width: 30em;
-}
-
-.search-bar input,
-.search-btn,
-.search-btn:before,
-.search-btn:after {
-  transition: all 0.25s ease-out;
-}
-
-.search-bar input {
-  width: 10em;
-  height: 2.5em;
-}
-
-.search-btn {
-  width: 3em;
-  height: 2.5em;
-}
-
-.nav-item {
-  justify-content: center;
-}
-
-.nav-link {
+.form-control {
   font-family: "Proxima Nova Reg";
-  font-size: 16px;
-  margin: 15px;
-  opacity: 0.9;
-  position: relative;
-  text-decoration: none;
-} */
-
-/* .search-bar input,
-.search-btn {
-	width: 3em;
-	height: 2.5em;
-} */
-
-/*
-
-
-.iniciar-sesion {
-  text-transform: uppercase;
 }
 
-.menutop > .nav-logo {
-  margin: 30px;
-} */
+.form-inline {
+  display: flex;
+  height: 10%;
+  padding: 15px 20px;
+}
 
-/* .menutop > .nav-toggle {
-  display: none;
-} */
-
-/* @media only screen and (max-width: 900px) {
-  .menutop {
-    align-items: center;
-    background-color: rgb(24, 50, 70);
-    display: flex;
-    height: 40vh;
-    justify-content: center;
-    width: 100%;
-  }
-
-  .menutop > .nav-logo {
-    margin: 80px;
-    height: 40vh;
-    padding: 0px 95px;
-  }
-
-  .menutop > .nav-items {
-    align-items: center;
-    background-color: rgb(24, 50, 70);
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 100px;
-    width: 100%;
-  }
-
-  .menutop > .nav-toggle {
-    align-items: center;
-    cursor: pointer;
-    display: flex;
-    height: 50px;
-    justify-content: center;
-    width: 50px;
-  }
-} */
+.ini {
+  background-color: rgb(133, 131, 53);
+  border: 1px solid rgb(133, 131, 53);
+  color: aliceblue;
+  font-family: "Proxima Nova Reg";
+  text-transform: uppercase;
+  height: 10%;
+  /* padding: 17px 17px; */
+  padding: 15px 20px;
+  margin: 7px;
+}
