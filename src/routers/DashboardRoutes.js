@@ -1,4 +1,3 @@
-import React from "react";
 import { Cards } from "../components/home/cardnews/Cards";
 import { Titulo } from "../components/home/titulo/Titulo";
 import { Footer } from "../components/structure/footer/Footer";

@@ -1,18 +1,20 @@
-import React from "react";
 import { DashboardRoutes } from "./DashboardRoutes";
 import {
-  BrowserRouter as Router,
-  // Switch,
+  BrowserRouter,
+  Routes,
   Route,
-  // Redirect,
+  // Navigate
 } from "react-router-dom";
 
 export const AppRouter = () => {
   return (
-    <Router>
-      <div>
-        <Route exact path="/" component={DashboardRoutes} />
-      </div>
-    </Router>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/*" element={
+          <DashboardRoutes/>
+        } />
+        {/* <Navigate to="/home" /> */}
+      </Routes>
+    </BrowserRouter>
   );
 };
